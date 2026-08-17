@@ -6,15 +6,22 @@
 
         {
             string[] data = Console.ReadLine().Split();
-            long x, y, z, e;
-            x = int.Parse(data[0]);
-            y = int.Parse(data[1]);
-            z = int.Parse(data[2]);
-            e = int.Parse(data[3]);
-            Console.WriteLine($"Difference = {(x * y) - (z * e)}");
+            long a, b;
+            a = long.Parse(data[0]);
+            b = long.Parse(data[1]);
+
+            a %= 10;
+
+            b %= 10;
+
+            Console.WriteLine(b + a);
+
+
+
         }
     }
 }
+
 
 
 
