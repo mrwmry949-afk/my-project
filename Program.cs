@@ -1,4 +1,6 @@
-﻿namespace C__Fundamental.ConsoleApp
+﻿using System.ComponentModel.Design;
+
+namespace ConsoleApp3
 {
     internal class Program
     {
@@ -6,12 +8,18 @@
 
         {
             string[] data = Console.ReadLine().Split();
-            long x, y;
-            x = int.Parse(data[0]);
-            y = int.Parse(data[1]);
-            Console.WriteLine($"{x} + {y} = {x + y}");
-            Console.WriteLine($"{x} * {y} = {x * y}");
-            Console.WriteLine($"{x} - {y} = {x - y}");
+            long a, b;
+            a = long.Parse(data[0]);
+            b = long.Parse(data[1]);
+            
+             a %= 10;
+            
+            b %= 10;
+     
+            Console.WriteLine(b + a);
+
+
+
         }
     }
 }
