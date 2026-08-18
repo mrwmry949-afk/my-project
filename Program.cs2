@@ -1,0 +1,23 @@
+namespace C__Fundamental.ConsoleApp
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+
+        {
+
+            string[] data = Console.ReadLine().Split(' ');
+            int variable = int.Parse(data[0]);
+            long va = long.Parse(data[1]);
+            char ch = char.Parse(data[2]);
+            float f = float.Parse(data[3]);
+            double d = double.Parse(data[4]);
+
+            Console.WriteLine(variable);
+            Console.WriteLine(va);
+            Console.WriteLine(ch);
+            Console.WriteLine(f);
+            Console.WriteLine(d);
+        }
+    }
+}
