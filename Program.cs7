@@ -1,0 +1,20 @@
+namespace C__Fundamental.ConsoleApp
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+
+        {
+            // Note:
+            // Use double data type for this problem.
+            // Print 9 digits after decimal point.
+            double R;
+            double pi = 3.141592653;
+
+
+            R = double.Parse(Console.ReadLine());
+
+            Console.WriteLine((pi) * (R * Math.Pow(R, 1)));
+        }
+    }
+}
