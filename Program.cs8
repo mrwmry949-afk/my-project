@@ -1,0 +1,18 @@
+using System.Drawing;
+ 
+namespace C__Fundamental.ConsoleApp
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+ 
+        {
+            long N;
+            N = long.Parse(Console.ReadLine());
+            long sum = N * (N + 1) / 2;
+ 
+            Console.WriteLine(sum);
+        }
+    }
+}
+ 
