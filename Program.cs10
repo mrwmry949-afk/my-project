@@ -1,0 +1,25 @@
+﻿using System.Drawing;
+ 
+namespace C__Fundamental.ConsoleApp
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+ 
+        {
+            string[] data = Console.ReadLine().Split();
+            long x = long.Parse(data[0]);
+            long y = long.Parse(data[1]);
+            if (x >= y)
+            {
+                Console.WriteLine("Yes");
+            }
+            else
+            {
+                Console.WriteLine("No");
+            }
+            
+        }
+       
+    }
+}
