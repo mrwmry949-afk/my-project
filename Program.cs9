@@ -1,0 +1,23 @@
+using System.Drawing;
+ 
+namespace C__Fundamental.ConsoleApp
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+ 
+        {
+            string[] data = Console.ReadLine().Split();
+            double x = long.Parse(data[0]);
+            double y = long.Parse(data[1]);
+ 
+            Console.WriteLine($"floor {x} / {y} = {Math.Floor(x / y)}");
+            Console.WriteLine($"ceil {x} / {y} = {Math.Ceiling(x / y)}");
+            Console.WriteLine($"round {x} / {y} = {Math.Round(x / y, MidpointRounding.AwayFromZero)}");
+        }
+       
+    }
+}
+ 
+ 
+ 
