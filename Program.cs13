@@ -1,0 +1,29 @@
+using System.Drawing;
+ 
+namespace C__Fundamental.ConsoleApp
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+ 
+        {
+            string[] data1 = Console.ReadLine().Split();
+            string[] data2 = Console.ReadLine().Split();
+            string w =(data1[0]);
+            string x = (data1[1]);
+            
+            string y = (data2[0]);
+            string z = (data2[1]);
+            if(x == z)
+            {
+                Console.WriteLine("ARE Brothers");
+            }
+            else
+            {
+                Console.WriteLine("NOT");
+            }
+        }
+       
+    }
+}
+ 
